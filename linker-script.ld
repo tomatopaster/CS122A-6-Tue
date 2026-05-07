@@ -1,4 +1,4 @@
-ENTRY(reset_handler) /* define start as the entry address */
+ENTRY(vectors_start) /* define start as the entry address */
 SECTIONS /* program sections */
 {
     . = 0x10000; /* loading address, required by QEMU */
